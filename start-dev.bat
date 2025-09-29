@@ -82,21 +82,32 @@ timeout /t 3 /nobreak >nul
 
 :: Check and clear port conflicts
 echo Checking for port conflicts...
-netstat -ano | findstr :5000 >nul 2>&1
-if %errorlevel% equ 0 (
-    echo Port 5000 is in use, clearing...
-    for /f "tokens=5" %%a in ('netstat -ano ^| findstr :5000') do (
+
+:: Kill any existing Node.js processes
+echo Stopping existing Node.js processes...
+taskkill /F /IM node.exe >nul 2>&1
+taskkill /F /IM nodemon.exe >nul 2>&1
+
+:: Wait for processes to terminate
+timeout /t 3 /nobreak >nul
+
+:: Check specific ports and kill processes using them
+for /f "tokens=5" %%a in ('netstat -ano ^| findstr ":5000" 2^>nul') do (
+    if not "%%a"=="" (
+        echo Killing process %%a using port 5000...
         taskkill /F /PID %%a >nul 2>&1
     )
 )
 
-netstat -ano | findstr :3000 >nul 2>&1
-if %errorlevel% equ 0 (
-    echo Port 3000 is in use, clearing...
-    for /f "tokens=5" %%a in ('netstat -ano ^| findstr :3000') do (
+for /f "tokens=5" %%a in ('netstat -ano ^| findstr ":3000" 2^>nul') do (
+    if not "%%a"=="" (
+        echo Killing process %%a using port 3000...
         taskkill /F /PID %%a >nul 2>&1
     )
 )
+
+:: Wait for ports to be released
+timeout /t 2 /nobreak >nul
 
 :: Start Backend Server
 echo Starting Backend Server (Port 5000)...

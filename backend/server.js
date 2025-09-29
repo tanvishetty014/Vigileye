@@ -16,6 +16,7 @@ const analyticsRoutes = require('./routes/analytics');
 const reportRoutes = require('./routes/reports');
 const nlpRoutes = require('./routes/nlp');
 const aiRoutes = require('./routes/ai');
+const breachLookupRoutes = require('./routes/breach-lookup');
 
 const app = express();
 
@@ -53,6 +54,7 @@ app.use('/api/analytics', analyticsRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/nlp', nlpRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/breach-lookup', breachLookupRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
@@ -82,7 +84,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT} in ${process.env.NODE_ENV} mode`);

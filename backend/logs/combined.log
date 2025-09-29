@@ -38,3 +38,127 @@
 {"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 14:10:10"}
 {"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 14:11:38"}
 {"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 14:11:38"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:06:14"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:06:14"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:06:26"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:06:26"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:06:40"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:06:40"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:12:29"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:12:29"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:13:01"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:13:02"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:15:52"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:15:52"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:29:28"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:29:28"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:38:42"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:38:42"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:39:28"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:39:28"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 15:40:32"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 15:40:32"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:00:23"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:00:23"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:18:33"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:18:33"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:18:56"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:18:56"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:27:57"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:27:57"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:35:25"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:35:25"}
+{"level":"info","message":"::1 - - [19/Sep/2025:11:06:09 +0000] \"GET /api/health HTTP/1.1\" 200 102 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.6584\"","service":"vigil-backend","timestamp":"2025-09-19 16:36:09"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:44:23"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:44:23"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:52:32"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:52:32"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 16:54:11"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 16:54:11"}
+{"level":"info","message":"::1 - - [19/Sep/2025:11:24:46 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 400 62 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-19 16:54:46"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 17:01:29"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 17:01:29"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-19 17:02:15"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-19 17:02:15"}
+{"level":"info","message":"::1 - - [19/Sep/2025:11:32:16 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-19 17:02:16"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-19 17:02:58"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-19 17:02:58"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-19 17:04:14"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-19 17:04:14"}
+{"level":"info","message":"::1 - - [19/Sep/2025:11:34:15 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-19 17:04:15"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-19 17:04:33"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-19 17:04:33"}
+{"level":"info","message":"::1 - - [19/Sep/2025:11:34:34 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-19 17:04:34"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-22 11:57:09"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-22 11:57:09"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-23 14:08:04"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-23 14:08:04"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 11:20:41"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 11:20:41"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 11:21:30"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 11:21:30"}
+{"level":"info","message":"::1 - - [29/Sep/2025:05:51:31 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 78 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 11:21:31"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 11:21:41"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 11:21:41"}
+{"level":"info","message":"::1 - - [29/Sep/2025:05:51:41 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 78 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 11:21:41"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 11:22:09"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 11:22:09"}
+{"level":"info","message":"::1 - - [29/Sep/2025:05:52:09 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 78 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 11:22:09"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 11:22:13"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 11:22:13"}
+{"level":"info","message":"::1 - - [29/Sep/2025:05:52:14 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 78 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 11:22:14"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 11:44:14"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 11:44:14"}
+{"level":"info","message":"::1 - - [29/Sep/2025:06:14:15 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 11:44:15"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 13:57:47"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 13:57:47"}
+{"level":"info","message":"::1 - - [29/Sep/2025:08:27:48 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 78 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 13:57:48"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:15:45"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:15:45"}
+{"level":"info","message":"::1 - - [29/Sep/2025:09:45:46 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:15:46"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:37:16"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:37:16"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:07:19 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:37:19"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:37:34"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:37:34"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:07:35 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:37:35"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:40:33"}
+{"level":"info","message":"Breach lookup requested for: rockybhi456@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:40:33"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:10:34 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 817 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:40:34"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:41:08"}
+{"level":"info","message":"Breach lookup requested for: aryanraj181204@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:41:08"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:11:09 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:41:09"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 15:51:14"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 15:51:14"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:51:58"}
+{"level":"info","message":"Breach lookup requested for: rockybhi456@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:51:58"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:21:59 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:51:59"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 15:52:15"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 15:52:15"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:22:16 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 15:52:16"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:04:36"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:04:36"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:34:37 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 500 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:04:37"}
+{"level":"error","message":"SyntaxError: Bad escaped character in JSON at position 9\n    at JSON.parse (<anonymous>)\n    at parse (D:\\vigil\\backend\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\vigil\\backend\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\vigil\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\vigil\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\vigil\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","service":"vigil-backend","timestamp":"2025-09-29 16:18:59"}
+{"level":"error","message":"SyntaxError: Expected property name or '}' in JSON at position 2\n    at JSON.parse (<anonymous>)\n    at parse (D:\\vigil\\backend\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\vigil\\backend\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\vigil\\backend\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\vigil\\backend\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\vigil\\backend\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","service":"vigil-backend","timestamp":"2025-09-29 16:19:11"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:49:58 +0000] \"GET /api/health HTTP/1.1\" 200 104 \"-\" \"curl/8.14.1\"","service":"vigil-backend","timestamp":"2025-09-29 16:19:58"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 16:21:56"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 16:21:56"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:22:24"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:22:24"}
+{"level":"info","message":"::1 - - [29/Sep/2025:10:52:25 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 401 58 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:22:25"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 16:34:04"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 16:34:04"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:04:19 +0000] \"GET /api/health HTTP/1.1\" 200 102 \"-\" \"curl/8.14.1\"","service":"vigil-backend","timestamp":"2025-09-29 16:34:19"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:35:37"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:35:37"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:05:37 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:35:37"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:35:59"}
+{"level":"info","message":"Breach lookup requested for: rockybhi456@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:35:59"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:06:00 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 817 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:36:00"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:36:29"}
+{"level":"info","message":"Breach lookup requested for: Darshandeepakjanganure1234@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:36:29"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:06:31 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 296 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:36:31"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:40:22"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:40:22"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:10:23 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:40:23"}
