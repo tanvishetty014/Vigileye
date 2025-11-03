@@ -17,6 +17,7 @@ const reportRoutes = require('./routes/reports');
 const nlpRoutes = require('./routes/nlp');
 const aiRoutes = require('./routes/ai');
 const breachLookupRoutes = require('./routes/breach-lookup');
+const otxRoutes = require('./routes/otx');
 
 const app = express();
 
@@ -55,6 +56,7 @@ app.use('/api/reports', reportRoutes);
 app.use('/api/nlp', nlpRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/breach-lookup', breachLookupRoutes);
+app.use('/api/otx', otxRoutes);
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {

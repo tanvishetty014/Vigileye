@@ -162,3 +162,396 @@
 {"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:40:22"}
 {"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:40:22"}
 {"level":"info","message":"::1 - - [29/Sep/2025:11:10:23 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:40:23"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-09-29 16:52:45"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-09-29 16:52:45"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:22:47 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 16:52:47"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 17:14:26"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 17:14:26"}
+{"level":"warn","message":"OTX_API_KEY not configured; attempting public endpoints","service":"vigil-backend","timestamp":"2025-09-29 17:15:09"}
+{"level":"warn","message":"OTX_API_KEY not configured; attempting public endpoints","service":"vigil-backend","timestamp":"2025-09-29 17:15:09"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:45:12 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:15:12"}
+{"level":"warn","message":"OTX fetch error for https://otx.alienvault.com/api/v1/pulses/subscribed?limit=100: timeout of 10000ms exceeded","service":"vigil-backend","timestamp":"2025-09-29 17:15:19"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:45:19 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:15:19"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 17:19:01"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 17:19:01"}
+{"level":"warn","message":"OTX_API_KEY not configured; attempting public endpoints","service":"vigil-backend","timestamp":"2025-09-29 17:19:27"}
+{"level":"warn","message":"OTX_API_KEY not configured; attempting public endpoints","service":"vigil-backend","timestamp":"2025-09-29 17:19:27"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:49:28 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:19:28"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:49:29 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:19:29"}
+{"level":"warn","message":"OTX_API_KEY not configured; attempting public endpoints","service":"vigil-backend","timestamp":"2025-09-29 17:19:39"}
+{"level":"warn","message":"OTX fetch error for https://otx.alienvault.com/api/v1/pulses?limit=100: timeout of 10000ms exceeded","service":"vigil-backend","timestamp":"2025-09-29 17:19:58"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:49:58 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:19:58"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 17:23:21"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 17:23:21"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:54:08 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"curl/8.14.1\"","service":"vigil-backend","timestamp":"2025-09-29 17:24:08"}
+{"level":"warn","message":"OTX fetch error for https://otx.alienvault.com/api/v1/pulses/subscribed?limit=100: timeout of 10000ms exceeded","service":"vigil-backend","timestamp":"2025-09-29 17:25:15"}
+{"level":"warn","message":"OTX fetch error for https://otx.alienvault.com/api/v1/pulses/subscribed?limit=100: timeout of 10000ms exceeded","service":"vigil-backend","timestamp":"2025-09-29 17:25:15"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:55:19 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:25:19"}
+{"level":"warn","message":"OTX fetch error for https://otx.alienvault.com/api/v1/pulses?limit=100: timeout of 10000ms exceeded","service":"vigil-backend","timestamp":"2025-09-29 17:25:25"}
+{"level":"info","message":"::1 - - [29/Sep/2025:11:55:25 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 586 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:25:25"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-09-29 17:30:14"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-09-29 17:30:14"}
+{"level":"info","message":"::1 - - [29/Sep/2025:12:01:02 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 978 \"-\" \"curl/8.14.1\"","service":"vigil-backend","timestamp":"2025-09-29 17:31:02"}
+{"level":"info","message":"::1 - - [29/Sep/2025:12:01:58 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 978 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:31:58"}
+{"level":"info","message":"::1 - - [29/Sep/2025:12:02:05 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 968 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-09-29 17:32:05"}
+{"level":"warn","message":"MongoDB disconnected","service":"vigil-backend","timestamp":"2025-09-29 20:56:40"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-03 20:12:02"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-03 20:12:03"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-03 20:12:54"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-03 20:12:54"}
+{"level":"info","message":"::1 - - [03/Oct/2025:14:42:59 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 20:12:59"}
+{"level":"info","message":"::1 - - [03/Oct/2025:14:43:38 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 998 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 20:13:38"}
+{"level":"info","message":"::1 - - [03/Oct/2025:14:43:38 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 998 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 20:13:38"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:18:30 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 998 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:48:30"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:18:33 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 998 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:48:33"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:20:15 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 998 \"-\" \"curl/8.14.1\"","service":"vigil-backend","timestamp":"2025-10-03 21:50:15"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-03 21:58:34"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-03 21:58:34"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 21:58:58"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:28:58 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:58:58"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 21:58:58"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:28:58 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:58:58"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 21:59:32"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:29:32 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:59:32"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 21:59:37"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:29:37 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1010 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:59:37"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 21:59:39"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:29:39 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 21:59:39"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:00:01"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:30:01 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:00:01"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:00:06"}
+{"level":"info","message":"::1 - - [03/Oct/2025:16:30:06 +0000] \"GET /api/otx/overview?days=30 HTTP/1.1\" 200 2429 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:00:06"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-03 22:34:29"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-03 22:34:29"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-03 22:40:37"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-03 22:40:37"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:41:01"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:11:01 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1300 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:41:01"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:41:02"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:11:02 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:41:02"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:41:11"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:11:11 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:41:11"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:41:12"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:11:12 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1297 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:41:12"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-03 22:51:25"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-03 22:51:25"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:51:47"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:21:47 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1300 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:51:47"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:51:48"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:21:48 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:51:48"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:52:21"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:22:21 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:52:21"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:52:47"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:22:47 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1004 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:52:47"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-03 22:56:48"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-03 22:56:48"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:26:50 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:56:50"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-03 22:57:30"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-03 22:57:30"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:27:31 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 867 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:57:31"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:57:53"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:27:53 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:57:53"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-03 22:57:53"}
+{"level":"info","message":"::1 - - [03/Oct/2025:17:27:53 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-03 22:57:53"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 11:06:04"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 11:06:04"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:07:04"}
+{"level":"info","message":"Breach lookup requested for: pethousehubli@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:07:04"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:37:04 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 502 77 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:07:04"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:07:27"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:07:27"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:37:28 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 502 77 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:07:28"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 11:08:32"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 11:08:32"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:09:10"}
+{"level":"info","message":"Breach lookup requested for: pethousehubli@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:09:10"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:39:12 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 283 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:09:12"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:09:29"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:09:29"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:39:30 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:09:30"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:09:52"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:09:52"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:39:54 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 867 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:09:54"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:09:57"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:09:57"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:39:58 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 867 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:09:58"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:10:21"}
+{"level":"info","message":"Breach lookup requested for: 01fe23bca071@kletech.ac.in by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:10:21"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:40:23 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 286 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:10:23"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 11:10:48"}
+{"level":"info","message":"Breach lookup requested for: nagaraj7204343@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 11:10:48"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:40:50 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:10:50"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 11:11:04"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:41:04 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1300 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:11:04"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 11:11:04"}
+{"level":"info","message":"::1 - - [04/Oct/2025:05:41:04 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 11:11:04"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 20:20:54"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 20:20:54"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 20:24:07"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 20:24:07"}
+{"level":"info","message":"::1 - - [04/Oct/2025:14:54:09 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:24:09"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 20:24:15"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 20:24:15"}
+{"level":"info","message":"::1 - - [04/Oct/2025:14:54:16 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 166389 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:24:16"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:27:15"}
+{"level":"info","message":"::1 - - [04/Oct/2025:14:57:15 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:27:15"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:27:15"}
+{"level":"info","message":"::1 - - [04/Oct/2025:14:57:15 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:27:15"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 20:39:26"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 20:39:26"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:39:48"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:09:48 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:39:48"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:39:51"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:09:51 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1299 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:39:51"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:42:29"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:12:29 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1305 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:42:29"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:42:29"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:12:29 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:42:29"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 20:56:45"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 20:56:45"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:57:09"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:27:09 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1305 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:57:09"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 20:57:09"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:27:09 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1300 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 20:57:09"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 21:19:23"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 21:19:23"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 21:20:05"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 21:20:05"}
+{"level":"info","message":"::1 - - [04/Oct/2025:15:50:07 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 21:20:07"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 21:44:08"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 21:44:08"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-04 21:44:25"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-04 21:44:25"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 21:45:11"}
+{"level":"info","message":"::1 - - [04/Oct/2025:16:15:11 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 21:45:11"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 21:45:11"}
+{"level":"info","message":"::1 - - [04/Oct/2025:16:15:11 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 21:45:11"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-04 21:45:42"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-04 21:45:42"}
+{"level":"info","message":"::1 - - [04/Oct/2025:16:15:43 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 21:45:43"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 21:45:48"}
+{"level":"info","message":"::1 - - [04/Oct/2025:16:15:48 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 21:45:48"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-04 21:45:49"}
+{"level":"info","message":"::1 - - [04/Oct/2025:16:15:49 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1306 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-04 21:45:49"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-05 11:24:27"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-05 11:24:28"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:25:02"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:55:02 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:25:02"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:25:03"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:55:03 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:25:03"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:25:28"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:25:28"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:55:31 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:25:31"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:25:54"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:25:54"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:55:55 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 161800 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:25:55"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:26:24"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:56:24 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:26:24"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:26:24"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:56:24 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:26:24"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:26:34"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:56:34 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1004 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:26:34"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:26:48"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:56:48 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:26:48"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:28:39"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:28:39"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:58:40 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 867 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:28:40"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:29:27"}
+{"level":"info","message":"Breach lookup requested for: poojamadiwalar449@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:29:27"}
+{"level":"info","message":"::1 - - [05/Oct/2025:05:59:29 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 287 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:29:29"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:30:08"}
+{"level":"info","message":"Breach lookup requested for: sayednsrddn@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:30:08"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:00:10 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 281 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:30:10"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:30:35"}
+{"level":"info","message":"Breach lookup requested for: shraddhan81@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:30:35"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:00:37 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 281 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:30:37"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:31:14"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:01:14 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:31:14"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:31:15"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:01:15 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:31:15"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:53:32"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:23:32 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1297 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:53:32"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-05 11:53:33"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:23:33 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:53:33"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:54:19"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:54:19"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:24:21 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:54:21"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 11:55:13"}
+{"level":"info","message":"Breach lookup requested for: harish.agadi@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-05 11:55:13"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:25:15 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 10390 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 11:55:15"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-05 12:08:54"}
+{"level":"info","message":"Breach lookup requested for: harish.agadi@kletech.ac.in by anonymous","service":"vigil-backend","timestamp":"2025-10-05 12:08:54"}
+{"level":"info","message":"::1 - - [05/Oct/2025:06:38:56 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 286 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-05 12:08:56"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-18 09:41:19"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-18 09:41:19"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-18 09:42:11"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-18 09:42:11"}
+{"level":"info","message":"::1 - - [18/Oct/2025:04:12:15 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 162805 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 09:42:15"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-18 10:03:00"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-18 10:03:00"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-18 10:25:24"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-18 10:25:24"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-18 10:28:51"}
+{"level":"info","message":"::1 - - [18/Oct/2025:04:58:51 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:28:51"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-18 10:28:51"}
+{"level":"info","message":"::1 - - [18/Oct/2025:04:58:51 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:28:51"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-18 10:29:50"}
+{"level":"info","message":"Breach lookup requested for: tanvishetty407@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-18 10:29:50"}
+{"level":"info","message":"::1 - - [18/Oct/2025:04:59:53 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 284 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:29:53"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-18 10:30:41"}
+{"level":"info","message":"Breach lookup requested for: darshanjanganure12@gmail.com by anonymous","service":"vigil-backend","timestamp":"2025-10-18 10:30:41"}
+{"level":"info","message":"::1 - - [18/Oct/2025:05:00:42 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 867 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:30:42"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-18 10:32:16"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-18 10:32:16"}
+{"level":"info","message":"::1 - - [18/Oct/2025:05:02:18 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 162805 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:32:18"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-18 10:33:20"}
+{"level":"info","message":"::1 - - [18/Oct/2025:05:03:20 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1305 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:33:20"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-18 10:33:20"}
+{"level":"info","message":"::1 - - [18/Oct/2025:05:03:20 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-18 10:33:20"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-24 20:14:34"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-24 20:14:34"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-24 20:31:08"}
+{"level":"info","message":"::1 - - [24/Oct/2025:15:01:08 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1305 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-24 20:31:08"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-24 20:31:09"}
+{"level":"info","message":"::1 - - [24/Oct/2025:15:01:09 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-24 20:31:09"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-24 20:38:30"}
+{"level":"info","message":"::1 - - [24/Oct/2025:15:08:30 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-24 20:38:30"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-24 20:38:52"}
+{"level":"info","message":"::1 - - [24/Oct/2025:15:08:52 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1306 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-24 20:38:52"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-24 20:38:52"}
+{"level":"info","message":"::1 - - [24/Oct/2025:15:08:52 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1300 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-24 20:38:52"}
+{"level":"warn","message":"MongoDB disconnected","service":"vigil-backend","timestamp":"2025-10-24 20:59:26"}
+{"level":"warn","message":"MongoDB disconnected","service":"vigil-backend","timestamp":"2025-10-24 22:42:48"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-10-30 18:23:22"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-10-30 18:23:22"}
+{"level":"info","message":"Breach lookup request received:","service":"vigil-backend","timestamp":"2025-10-30 18:24:26"}
+{"level":"info","message":"Breach lookup requested for: johndoe@yahoo.com by anonymous","service":"vigil-backend","timestamp":"2025-10-30 18:24:26"}
+{"level":"info","message":"::1 - - [30/Oct/2025:12:54:30 +0000] \"POST /api/breach-lookup/check HTTP/1.1\" 200 163775 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-30 18:24:30"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-30 18:25:02"}
+{"level":"info","message":"::1 - - [30/Oct/2025:12:55:02 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-30 18:25:02"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-30 18:25:04"}
+{"level":"info","message":"::1 - - [30/Oct/2025:12:55:04 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-30 18:25:04"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-30 18:26:09"}
+{"level":"info","message":"::1 - - [30/Oct/2025:12:56:09 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-30 18:26:09"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-10-30 18:26:09"}
+{"level":"info","message":"::1 - - [30/Oct/2025:12:56:09 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-10-30 18:26:09"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 10:52:44"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 10:52:44"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 10:57:05"}
+{"level":"info","message":"::1 - - [02/Nov/2025:05:27:05 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 10:57:05"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 11:12:01"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 11:12:01"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:22:58"}
+{"level":"info","message":"::1 - - [02/Nov/2025:05:52:58 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1007 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:22:58"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 11:28:23"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 11:28:23"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:30:12"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:00:12 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1008 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:30:12"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:30:12"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:00:12 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1003 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:30:12"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:31:43"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:01:43 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1305 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:31:43"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:31:43"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:01:43 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:31:43"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:32:05"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:02:05 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:32:05"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:32:05"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:02:05 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1305 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:32:05"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:32:24"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:02:24 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1013 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:32:24"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:32:24"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:02:24 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1011 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:32:24"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:34:52"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:04:52 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1011 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:34:52"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 11:34:53"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:04:53 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1009 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 11:34:53"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 12:03:51"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 12:03:51"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:04:28"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:34:28 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1008 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:04:28"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:04:28"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:34:28 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1010 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:04:28"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:08:34"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:38:34 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1009 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:08:34"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:08:37"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:38:37 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1007 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:08:37"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:08:42"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:38:42 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1012 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:08:42"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 12:26:33"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 12:26:33"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:26:57"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:56:57 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:26:57"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 12:26:58"}
+{"level":"info","message":"::1 - - [02/Nov/2025:06:56:58 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 12:26:58"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 12:47:05"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 12:47:05"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:05:06"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:35:06 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:05:06"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:05:06"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:35:06 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1306 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:05:06"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-02 13:21:34"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-02 13:21:34"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:24:11"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:54:11 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:24:11"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:24:11"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:54:11 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1307 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:24:11"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:25:01"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:55:01 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1006 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:25:01"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:25:01"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:55:01 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1008 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:25:01"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:26:45"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:56:45 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1008 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:26:45"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:28:42"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:58:42 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:28:42"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:28:47"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:58:47 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:28:47"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:29:28"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:59:28 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:29:28"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:29:28"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:59:28 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:29:28"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:29:46"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:59:46 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:29:46"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:29:46"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:59:46 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1300 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:29:46"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:29:52"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:59:52 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:29:52"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:29:54"}
+{"level":"info","message":"::1 - - [02/Nov/2025:07:59:54 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:29:54"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:30:09"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:00:09 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1011 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:30:09"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:30:10"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:00:10 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1010 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:30:10"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:07"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:07 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1299 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:07"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:08"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:08 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:08"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:21"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:21 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:21"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:22"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:22 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:22"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:27"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:27 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1009 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:27"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:27"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:27 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1007 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:27"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:43:41"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:13:41 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1008 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:43:41"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:46:22"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:16:22 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1301 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:46:22"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:46:24"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:16:24 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1303 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:46:24"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:46:27"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:16:27 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:46:27"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:46:28"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:16:28 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1302 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:46:28"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:46:33"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:16:33 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1297 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:46:33"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:46:33"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:16:33 +0000] \"GET /api/otx/overview?days=7 HTTP/1.1\" 200 1304 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:46:33"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:50:02"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:20:02 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1007 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:50:02"}
+{"level":"warn","message":"OTX unavailable, using fallback analytics data","service":"vigil-backend","timestamp":"2025-11-02 13:50:02"}
+{"level":"info","message":"::1 - - [02/Nov/2025:08:20:02 +0000] \"GET /api/otx/overview?days=1 HTTP/1.1\" 200 1010 \"-\" \"node\"","service":"vigil-backend","timestamp":"2025-11-02 13:50:02"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-03 10:12:14"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-03 10:12:14"}
+{"level":"info","message":"Server running on port 5001 in development mode","service":"vigil-backend","timestamp":"2025-11-03 10:13:18"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"vigil-backend","timestamp":"2025-11-03 10:13:18"}
